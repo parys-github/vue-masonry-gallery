@@ -1,0 +1,261 @@
+[
+  {
+    "src": "./static/img/adam-bixby-562004-unsplash.jpg",
+    "srcBig": "./static/img/adam-bixby-562004-unsplash.jpg",
+    "href": null,
+    "title": "This is first img title",
+    "info": "First description",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/ayo-ogunseinde-93181-unsplash.jpg",
+    "srcBig": "./static/img/ayo-ogunseinde-93181-unsplash.jpg",
+    "title": "This is second img title",
+    "href": null,
+    "info":
+      "Second desc with lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/nicole-harrington-482002-unsplash.jpg",
+    "href": "https://unsplash.com/",
+    "title": "Unsplash licence",
+    "info":
+      "All photos published on Unsplash can be used for free. You can use them for commercial and noncommercial purposes. You do not need to ask permission from or provide credit to the photographer or Unsplash, although it is appreciated when possible.",
+    "target": "blank"
+  },
+  {
+    "src": "./static/img/mohammad-metri-325178-unsplash.jpg",
+    "srcBig": "./static/img/mohammad-metri-325178-unsplash.jpg",
+    "title": "kttps://npmjs.org",
+    "href": null,
+    "info":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/jakob-owens-565883-unsplash.jpg",
+    "srcBig": "./static/img/jakob-owens-565883-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info":
+      "All photos published on Unsplash can be used for free. You can use them for commercial and noncommercial purposes.",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/joanna-kosinska-129039-unsplash.jpg",
+    "srcBig": "./static/img/joanna-kosinska-129039-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info": "External link here",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/photo-1504758243584-b40f072d53ae.jpg",
+    "href": "https://unsplash.com/photos/pQaXWipgoHg",
+    "title": "External link to website",
+    "info":
+      "All photos published on Unsplash can be used for free. You can use them for commercial and noncommercial purposes.",
+    "target": "blank"
+  },
+  {
+    "src": "./static/img/harman-abiwardani-1583-unsplash.jpg",
+    "srcBig": "./static/img/harman-abiwardani-1583-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/sven-van-der-pluijm-37716-unsplash.jpg",
+    "srcBig": "./static/img/sven-van-der-pluijm-37716-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info":
+      "All photos published on Unsplash can be used for free. You can use them for commercial and noncommercial purposes.",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/sacha-styles-549093-unsplash.jpg",
+    "srcBig": "./static/img/sacha-styles-549093-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/joelvalve-560893-unsplash.jpg",
+    "srcBig": "./static/img/joelvalve-560893-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/averie-woodard-111823-unsplash.jpg",
+    "href": "https://unsplash.com/photos/th3rQu0K3aM",
+    "title": "External link at the same tab",
+    "info":
+      "All photos published on Unsplash can be used for free. You can use them for commercial and noncommercial purposes.",
+    "target": "self"
+  },
+  {
+    "src": "./static/img/chuttersnap-179219-unsplash.jpg",
+    "srcBig": "./static/img/chuttersnap-179219-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info":
+      "All photos published on Unsplash can be used for free. You can use them for commercial and noncommercial purposes.",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/mickey-o-neil-36549-unsplash.jpg",
+    "srcBig": "./static/img/mickey-o-neil-36549-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/jeremy-bishop-211453-unsplash.jpg",
+    "srcBig": "./static/img/jeremy-bishop-211453-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info":
+      "All photos published on Unsplash can be used for free. You can use them for commercial and noncommercial purposes.",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/rodion-kutsaev-24833-unsplash.jpg",
+    "srcBig": "./static/img/rodion-kutsaev-24833-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info": "Short description",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/w-349443-unsplash.jpg",
+    "srcBig": "./static/img/w-349443-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/michael-amadeus-470453-unsplash.jpg",
+    "href": "https://www.npmjs.com/~vajracode",
+    "title": "External link at the new tab",
+    "info":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+    "target": "blank"
+  },
+  {
+    "src": "./static/img/casey-horner-437634-unsplash.jpg",
+    "srcBig": "./static/img/casey-horner-437634-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info":
+      "All photos published on Unsplash can be used for free. You can use them for commercial and noncommercial purposes.",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/brooke-cagle-224821-unsplash.jpg",
+    "srcBig": "./static/img/brooke-cagle-224821-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info":
+      "All photos published on Unsplash can be used for free. You can use them for commercial and noncommercial purposes.",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/matt-quinn-32104-unsplash.jpg",
+    "srcBig": "./static/img/matt-quinn-32104-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/joao-silas-636902-unsplash.jpg",
+    "srcBig": "./static/img/joao-silas-636902-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info":
+      "All photos published on Unsplash can be used for free. You can use them for commercial and noncommercial purposes.",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/evelyn-bertrand-334966-unsplash.jpg",
+    "srcBig": "./static/img/evelyn-bertrand-334966-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/evan-kirby-226482-unsplash.jpg",
+    "srcBig": "./static/img/evan-kirby-226482-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info":
+      "All photos published on Unsplash can be used for free. You can use them for commercial and noncommercial purposes.",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/clem-onojeghuo-120372-unsplash.jpg",
+    "srcBig": "./static/img/clem-onojeghuo-120372-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info": "All photos published on Unsplash can be used for free.",
+    "target": "modal"
+  },
+  {
+    "srcBig": "./static/img/andrew-neel-686610-unsplash.png",
+    "href": "https://www.npmjs.com/~vajracode",
+    "title": "This is image title",
+    "info":
+      "All photos published on Unsplash can be used for free. You can use them for commercial and noncommercial purposes.",
+    "target": "blank"
+  },
+  {
+    "src": "./static/img/christopher-burns-200321-unsplash.jpg",
+    "srcBig": "./static/img/christopher-burns-200321-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info":
+      "All photos published on Unsplash can be used for free. You can use them for commercial and noncommercial purposes.",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/rikky-alves-739794-unsplash.jpg",
+    "srcBig": "./static/img/rikky-alves-739794-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info": "All photos published on Unsplash can be used for free.",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/wang-xi-740026-unsplash.jpg",
+    "srcBig": "./static/img/wang-xi-740026-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info":
+      "All photos published on Unsplash can be used for free. You can use them for commercial and noncommercial purposes.",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/freestocks-org-63407-unsplash.jpg",
+    "srcBig": "./static/img/freestocks-org-63407-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info": "All photos published on Unsplash can be used for free.",
+    "target": "modal"
+  }
+]

@@ -21,12 +21,6 @@ npm run build
 npm run build --report
 ```
 
-## [Demo live](https://vue-masonry-gallery.vajracode.com)
-
-## [Sample code App.vue](https://github.com/parys-github/vue-masonry-gallery/src/App.vue)
-
-## [GitHub](https://github.com/parys-github/vue-masonry-gallery)
-
 ## 1. Usage
 
 ### 1.1 Installation
@@ -116,30 +110,31 @@ export default {
 };
 ```
 
-[more detail see App.vue file](https://github.com/parys-github/vue-masonry-gallery/src/App.vue)
+[more detail see App.vue file](https://github.com/parys-github/vue-masonry-gallery/blob/master/src/App.vue)
 
 ## 3. Props
 
-| props               | type           | default                  | description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| ------------------- | -------------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| width               | Number         | -                        | Container width（px）,default is 100% relative parent element width,**Due to the responsiveness,all its parent's width must be 100% relative to the browser window at this time**,See the example after the table<br>**If it is fixed width, you must set the width prop **, not just its parent element set fixed width                                                                                                                                                                                                                   |
-| height              | Number\|String | -                        | Container height, the default unit `px` for the value of the `Number` type, the unit can be specified when the value is the type of `String`<br>**When you do not specify the `height` value, the default is relative to the height of the parent element 100%, then the parent element must have a height**                                                                                                                                                                                                                               |
-| gap                 | Number         | 20                       | [Pc] space between pictures(px)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| mobileGap           | Number         | 8                        | [Mobile] space between pictures(px)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| imgsArr             | Array          | []                       | **required**<br>Data used to render the masonry gallery stream<br>Each array element is an object and must have `src`, `target` and `href` attributes.<br>The `src` attribute represents the SRC attribute of the picture<br>The `target` attribute determine opening method your source. Available options: `blank`, `self`, `modal`.<br>The `href` attribute represents the link to click to jump <br>**if your key is not `src` and `href`, you can use the two properties of `srcKey` and `hrefKey` to do the key value replacement.** |
-| srcKey              | String         | 'src'                    | When the key value of your picture address is not `src`, you can use this property to replace it.                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| targetKey           | String         | 'target'                 | When the key value of your picture address is not `target`, you can use this property to replace it.                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|                     |
-| hrefKey             | String         | 'href'                   | When the key value of your picture address is not `href`, you can use this property to replace it.                                                                                                                                                                                                                                                                                                                                                                                                                                         |
-| imgWidth            | Number         | 330                      | The width of the picture（px）                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| maxCols             | Number         | 5                        | Masonry shows the maximum number of columns                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| linkRange           | String         | 'card'                   | Identify click to trigger jump link range<br>value:<br>'card' Whole card range<br> 'img' image range <br> 'custom' Customize the link range through slots                                                                                                                                                                                                                                                                                                                                                                                  |
-| isRouterLink        | Boolean        | false                    | Render the a tag when the value is false<br>Render the router-link component when the value is true                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| reachBottomDistance | Number         | 0                        | The distance(px) from the bottom of the container when the scrolling triggers the scrollReachBottom event                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| loadingDotCount     | Number         | 3                        | The number of default loading animation dots                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| loadingDotStyle     | Object         | null                     | The style object of the small dots in the default loading element                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| loadingTimeOut      | Number         | 500                      | Preloading events less than 500ms milliseconds do not display loading animations,increasing the user experience                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| cardAnimationClass  | String         | 'default-card-animation' | the animation className for the card                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| props     | type           | default | description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| --------- | -------------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| width     | Number         | -       | Container width（px）,default is 100% relative parent element width,**Due to the responsiveness,all its parent's width must be 100% relative to the browser window at this time**,See the example after the table<br>**If it is fixed width, you must set the width prop **, not just its parent element set fixed width                                                                                                                                                                                                                   |
+| height    | Number\|String | -       | Container height, the default unit `px` for the value of the `Number` type, the unit can be specified when the value is the type of `String`<br>**When you do not specify the `height` value, the default is relative to the height of the parent element 100%, then the parent element must have a height**                                                                                                                                                                                                                               |
+| gap       | Number         | 20      | [Pc] space between pictures(px)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| mobileGap | Number         | 8       | [Mobile] space between pictures(px)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| imgsArr   | Array          | []      | **required**<br>Data used to render the masonry gallery stream<br>Each array element is an object and must have `src`, `target` and `href` attributes.<br>The `src` attribute represents the SRC attribute of the picture<br>The `target` attribute determine opening method your source. Available options: `blank`, `self`, `modal`.<br>The `href` attribute represents the link to click to jump <br>**if your key is not `src` and `href`, you can use the two properties of `srcKey` and `hrefKey` to do the key value replacement.** |
+
+| srcKey | String | 'src' | When the key value of your picture address is not `src`, you can use this property to replace it. |
+| targetKey | String | 'target' | When the key value of your picture address is not `target`, you can use this property to replace it. |
+| |
+| hrefKey | String | 'href' | When the key value of your picture address is not `href`, you can use this property to replace it. |
+| imgWidth | Number | 330 | The width of the picture（px） |
+| maxCols | Number | 5 | Masonry shows the maximum number of columns |
+| linkRange | String | 'card' | Identify click to trigger jump link range<br>value:<br>'card' Whole card range<br> 'img' image range <br> 'custom' Customize the link range through slots |
+| isRouterLink | Boolean | false | Render the a tag when the value is false<br>Render the router-link component when the value is true |
+| reachBottomDistance | Number | 0 | The distance(px) from the bottom of the container when the scrolling triggers the scrollReachBottom event |
+| loadingDotCount | Number | 3 | The number of default loading animation dots |
+| loadingDotStyle | Object | null | The style object of the small dots in the default loading element |
+| loadingTimeOut | Number | 500 | Preloading events less than 500ms milliseconds do not display loading animations,increasing the user experience |
+| cardAnimationClass | String | 'default-card-animation' | the animation className for the card |
 
 ## 4. Event
 
@@ -149,7 +144,7 @@ export default {
 | preloaded         | Trigger every time image preloading is completed                                             |
 | click             | Trigger when the card is clicked,look at an example under the table                          |
 
-click event demo
+click event
 
 ```html
 <vue-masonry-gallery :imgsArr="imgsArr" @scrollReachBottom="getData" @click="clickFn"></vue-masonry-gallery>
@@ -176,7 +171,7 @@ When the rolling load data is over, manual invoking will remove the scroll event
 this.$refs.waterfall.masonryOver()
 ```
 
-[more detail see App.vue](https://github.com/parys-github/vue-masonry-gallery/src/App.vue)
+[more detail see App.vue](https://github.com/parys-github/vue-masonry-gallery/blob/master/src/App.vue)
 
 ## 6. slot
 
@@ -233,8 +228,8 @@ when `masonryOver` method is called，this slot will show
 
 ## 7. Adapted mobile
 
-Don't forget to add following code in index.html \<head\>
+## [Demo live](https://vue-masonry-gallery.vajracode.com)
 
-```html
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-```
+## [Sample code App.vue](https://github.com/parys-github/vue-masonry-gallery/src/App.vue)
+
+## [GitHub](https://github.com/parys-github/vue-masonry-gallery)
