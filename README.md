@@ -1,7 +1,7 @@
 # vue-masonry-gallery 1.x
 
 1.  The masonry gallery component based on Vue.js that contains beautiful Waterfall Flow layout and fancy thumbnails hovering effect. Component letting you choos opening media at internal/external tabs or display media in modal popup.
-2.  Compared to other implementations, there is no need to specify the width and height of the image in the returned data
+2.  Compared to other implementations, there is no need to specify the width and height of the image in the returned data. A very convenient option for displaying random items.
 3.  Responsive layout, flexible adapted for mobile devices.
 4.  Very easy to implement to any projest, intentionaly dedicated to Vue.js environment.
 
@@ -231,5 +231,3 @@ when `masonryOver` method is called，this slot will show
 ## [Demo live](https://vue-masonry-gallery.vajracode.com)
 
 ## [Sample code App.vue](https://github.com/parys-github/vue-masonry-gallery/src/App.vue)
-
-## [GitHub](https://github.com/parys-github/vue-masonry-gallery)
