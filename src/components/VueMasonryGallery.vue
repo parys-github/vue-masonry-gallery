@@ -123,24 +123,12 @@
     color: #b7b7b7;
     cursor: pointer;
     outline: none;
+    border: solid 1px #d7d7d7;
     &:hover {
       background-color: #cf3e2c;
+      border: solid 1px #cf3e2c;
       color: white;
     }
-  }
-}
-#footer {
-  padding: 10px 0 20px;
-  width: 100%;
-  text-align: center;
-  position: relative;
-  transition: all 0.4s ease-out;
-  p.copyright {
-    width: 108px;
-    margin: 0 auto;
-    color: #adadad;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
   }
 }
 </style>

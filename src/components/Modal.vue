@@ -42,6 +42,7 @@ a.btn-close {
   padding-bottom: 0;
   line-height: 24px;
   transition: all 0.4s ease-out;
+  z-index: 99;
 }
 btn-close:hover {
   background-color: #cf3e2c;

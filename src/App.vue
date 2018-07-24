@@ -4,7 +4,7 @@
     <div class="header-block">
     a(href="https://www.vajracode.com",target="_blank",title="VajraCode")
       img.vajralogo(src="../static/img/vajracode-logo.png")
-    a.github(href="https://github.com/parys-github",target="_blank",title="GitHub")
+    a.github(href="https://github.com/parys-github/vue-masonry-gallery",target="_blank",title="GitHub")
       img.ghlogo(src="../static/img/github-icon.svg")
     a.npm(href="https://www.npmjs.com/~vajracode",target="_blank",title="NPMjs")
       img.npmlogo(src="../static/img/npm-logo.svg")
@@ -292,6 +292,20 @@ body,
     text-align: center;
   }
 }
+#footer {
+  padding: 10px 0 20px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  transition: all 0.4s ease-out;
+  p.copyright {
+    width: 108px;
+    margin: 0 auto;
+    color: #adadad;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+}
 @media only screen and (max-width: 1399px) {
   body {
     #app {
@@ -323,6 +337,20 @@ body,
           margin: 0 30px;
         }
       }
+      .lightbox-alpha {
+        .btn-close{
+             top: 20px;
+             right: 10px;
+           }
+         .lightbox-content{
+         top:30px;
+         transform: translate(-50%, 0);
+         width: 90%;
+         img{
+           width: 100%;
+         }
+       }
+     }
     }
   }
 }
@@ -334,6 +362,15 @@ body,
           img.npm-code {
             position: absolute;
             right: 15px;
+          }
+        }
+      }
+      #content{
+        .lightbox-alpha {
+          .btn-close{
+                  right: 5px;
+                }
+         .lightbox-content{
           }
         }
       }
