@@ -1,0 +1,19 @@
+# THIS IS ONLY FOR THE gitattributes REPOSITORY.
+# Handle line endings automatically for files detected as text
+# and leave all files detected as binary untouched.
+*.js_ linguist-language=JavaScript
+*.scss_ linguist-language=CSS
+*.css_ linguist-language=CSS
+*.html_ linguist-language=HTML
+*.json_ linguist-language=JSON
+*.svg_ linguist-language=SVG
+
+# Web
+*.js      text eol=lf
+*.vue     text eol=lf
+*.sass    text eol=lf
+*.css     text eol=lf
+*.map     text eol=lf
+*.json    text eol=lf
+*.html    text eol=lf
+*.svg     text eol=lf
