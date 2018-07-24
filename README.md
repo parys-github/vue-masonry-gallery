@@ -230,4 +230,4 @@ when `masonryOver` method is called，this slot will show
 
 ##### [Demo live](https://vue-masonry-gallery.vajracode.com)
 
-##### [Sample code App.vue](https://github.com/parys-github/vue-masonry-gallery/src/App.vue)
+##### [Sample code App.vue](https://github.com/parys-github/vue-masonry-gallery/blob/master/src/App.vue)
