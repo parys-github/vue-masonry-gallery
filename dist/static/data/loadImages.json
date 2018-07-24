@@ -86,15 +86,6 @@
     "target": "modal"
   },
   {
-    "src": "./static/img/joelvalve-560893-unsplash.jpg",
-    "srcBig": "./static/img/joelvalve-560893-unsplash.jpg",
-    "href": null,
-    "title": "This is image title",
-    "info":
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-    "target": "modal"
-  },
-  {
     "src": "./static/img/averie-woodard-111823-unsplash.jpg",
     "href": "https://unsplash.com/photos/th3rQu0K3aM",
     "title": "External link at the same tab",
@@ -118,6 +109,15 @@
     "title": "This is image title",
     "info":
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/joelvalve-560893-unsplash.jpg",
+    "srcBig": "./static/img/joelvalve-560893-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info":
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
     "target": "modal"
   },
   {
@@ -148,11 +148,12 @@
   },
   {
     "src": "./static/img/michael-amadeus-470453-unsplash.jpg",
-    "href": "https://www.npmjs.com/~vajracode",
+    "srcBig": "./static/img/michael-amadeus-470453-unsplash.jpg",
+    "href": null,
     "title": "External link at the new tab",
     "info":
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
-    "target": "blank"
+    "target": "modal"
   },
   {
     "src": "./static/img/casey-horner-437634-unsplash.jpg",
@@ -165,12 +166,11 @@
   },
   {
     "src": "./static/img/brooke-cagle-224821-unsplash.jpg",
-    "srcBig": "./static/img/brooke-cagle-224821-unsplash.jpg",
-    "href": null,
+    "href": "https://www.npmjs.com/~vajracode",
     "title": "This is image title",
     "info":
       "All photos published on Unsplash can be used for free. You can use them for commercial and noncommercial purposes.",
-    "target": "modal"
+    "target": "blank"
   },
   {
     "src": "./static/img/matt-quinn-32104-unsplash.jpg",
@@ -242,6 +242,14 @@
     "target": "modal"
   },
   {
+    "src": "./static/img/pine-watt-462535-unsplash.jpg",
+    "srcBig": "./static/img/pine-watt-462535-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info": "All photos published on Unsplash can be used for free.",
+    "target": "modal"
+  },
+  {
     "src": "./static/img/wang-xi-740026-unsplash.jpg",
     "srcBig": "./static/img/wang-xi-740026-unsplash.jpg",
     "href": null,
@@ -253,6 +261,14 @@
   {
     "src": "./static/img/freestocks-org-63407-unsplash.jpg",
     "srcBig": "./static/img/freestocks-org-63407-unsplash.jpg",
+    "href": null,
+    "title": "This is image title",
+    "info": "All photos published on Unsplash can be used for free.",
+    "target": "modal"
+  },
+  {
+    "src": "./static/img/andrew-neel-686610-unsplash.jpg",
+    "srcBig": "./static/img/andrew-neel-686610-unsplash.jpg",
     "href": null,
     "title": "This is image title",
     "info": "All photos published on Unsplash can be used for free.",
