@@ -226,8 +226,9 @@ when `masonryOver` method is called，this slot will show
 </vue-masonry-gallery>
 ```
 
-### 7. Adapted for mobile view
+### 7. DEMO
+Jump to online demo and resize browser screen or check view on any mobile device.
 
-##### [Demo live](https://vue-masonry-gallery.vajracode.com)
+##### [Demo live <= ](https://vue-masonry-gallery.vajracode.com)
 
-##### [Sample code App.vue](https://github.com/parys-github/vue-masonry-gallery/blob/master/src/App.vue)
+##### [Sample code App.vue <=](https://github.com/parys-github/vue-masonry-gallery/blob/master/src/App.vue)
