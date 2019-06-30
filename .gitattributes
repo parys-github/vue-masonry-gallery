@@ -1,6 +1,7 @@
+
 #
 # Exclude files from exporting
 #
 
 # Languages
-*.css linguist-language=Vue
+*.html linguist-language=Vue
