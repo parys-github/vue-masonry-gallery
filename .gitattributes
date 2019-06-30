@@ -1,3 +1,6 @@
+# Languages
+
+*.CSS linguist-language=VueJS
 
 # Auto detect text files and perform LF normalization
 * text=auto
