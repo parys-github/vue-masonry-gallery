@@ -1,3 +1,6 @@
-# Languages
+#
+# Exclude files from exporting
+#
 
-*.css linguist-language=VueJS
+# Languages
+*.html linguist-language=Vue
